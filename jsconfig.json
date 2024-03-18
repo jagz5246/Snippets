@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/db/*": ["./src/db"],
+      "@/actions/*": ["./src/actions"],
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.js", "**/*.jsx", ".next/types/**/*.js"],
+  "exclude": ["node_modules"]
+  
+}
